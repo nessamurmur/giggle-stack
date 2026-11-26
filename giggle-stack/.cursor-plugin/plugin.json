@@ -1,0 +1,26 @@
+{
+  "name": "giggle-stack",
+  "displayName": "giggle-stack",
+  "version": "0.1.0",
+  "description": "Giggle's agent style on top of pstack: /giggle-mode follows poteto-mode, plus Usefulness (thin vertical slices usable on prod, thickened from use).",
+  "author": {
+    "name": "NJ"
+  },
+  "homepage": "https://github.com/nessamurmur/giggle-stack",
+  "repository": "https://github.com/nessamurmur/giggle-stack",
+  "license": "MIT",
+  "keywords": [
+    "giggle-stack",
+    "giggle-mode",
+    "pstack",
+    "poteto-mode",
+    "principles",
+    "agent-style"
+  ],
+  "category": "developer-tools",
+  "tags": [
+    "workflow",
+    "principles"
+  ],
+  "skills": "./skills/"
+}
