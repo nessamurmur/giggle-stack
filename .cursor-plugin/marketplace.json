@@ -1,0 +1,16 @@
+{
+  "name": "giggle-stack",
+  "owner": {
+    "name": "NJ"
+  },
+  "metadata": {
+    "description": "NJ's agent style on top of pstack. Requires the official pstack plugin."
+  },
+  "plugins": [
+    {
+      "name": "giggle-stack",
+      "source": "giggle-stack",
+      "description": "NJ's agent style on top of pstack: /giggle-mode follows poteto-mode, plus Usefulness."
+    }
+  ]
+}
