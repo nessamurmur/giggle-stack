@@ -15,7 +15,7 @@ reminder: New task? Apply /giggle-mode. Casual turn or user opts out -> don't.
 
 Thin router over pstack's `poteto-mode`. `/giggle-mode` works like `/poteto-mode`.
 
-**Requires** the official `pstack` plugin, installed alongside this one. Load pstack's `poteto-mode` and follow it in full: its principles, non-negotiable triggers, playbooks, autonomy, subagent machinery, and reply rules. Do not copy that body into this file. If `poteto-mode` is missing, stop and tell the user to install pstack.
+**Requires** `pstack` and `cursor-team-kit`. `poteto-mode` is slash-only and hidden from the skill list. Find the visible `setup-pstack` skill, read `../poteto-mode/SKILL.md` relative to its directory, and keep that path for its bundled playbooks (`../poteto-mode/playbooks/<name>.md`). Follow that file in full. Tell the user to run `/add-plugin pstack` only if that file is missing. `/deslop` comes from `cursor-team-kit`. It is installed when `deslop` is in the skill list. If it is missing, stop and tell the user to run `/add-plugin cursor-team-kit`.
 
 ## Principle added
 

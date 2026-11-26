@@ -2,18 +2,19 @@
 
 Thin overlay on [pstack](https://github.com/cursor/plugins/tree/main/pstack). `/giggle-mode` follows pstack's `/poteto-mode`, and adds one principle, Usefulness.
 
-Official pstack stays installed. This repo does not copy pstack's principles, playbooks, or other skills.
+Official pstack and cursor-team-kit stay installed. This repo does not copy pstack's principles, playbooks, or other skills.
 
 ## Requires
 
-The official `pstack` plugin. Without it, `/giggle-mode` has nothing to route to.
+The official `pstack` plugin and `cursor-team-kit`. pstack holds `poteto-mode`. cursor-team-kit holds `/deslop`, which poteto-mode runs before a commit.
 
 ## Install
 
-Install pstack from the Cursor marketplace, and leave it installed:
+Install both from the Cursor marketplace, and leave them installed:
 
 ```text
 /add-plugin pstack
+/add-plugin cursor-team-kit
 ```
 
 Import this repo as a Team Marketplace (Teams or Enterprise). On Enterprise, a team admin does this.
