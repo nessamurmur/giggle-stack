@@ -43,7 +43,7 @@ The agent loads pstack's `poteto-mode` and follows it (principles, triggers, pla
 
 Build a skateboard, then a bicycle, then a car. The first slice is something a user can use on prod that day. Thicken what people touch. Cut what they never reach.
 
-A chat app's first thread is one hardcoded room, no auth, and a posted message visible on prod. Plan tickets as threads, not layers.
+A chat app's first thread is one hardcoded room, no auth, and a posted message visible on prod. Plan tickets as threads, not layers. Each day's work, PR, or stack is one thread, and it is finished before a new layer starts.
 
 ## Layout
 

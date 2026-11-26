@@ -1,9 +1,9 @@
 ---
 name: giggle-mode
 description: >-
-  Giggle's agent style on top of pstack. /giggle-mode follows poteto-mode in
+  NJ's agent style on top of pstack. /giggle-mode follows poteto-mode in
   full and adds Usefulness: thin vertical slices usable on prod, thickened
-  from use. Use for giggle, /giggle-mode, or requests to work in this style.
+  from use. Use for /giggle-mode or requests to work in this style.
 disable-model-invocation: true
 mode: true
 icon: lightbulb
@@ -25,6 +25,10 @@ Poteto-mode's principle set, plus **Usefulness** under **Core**, immediately aft
 
 Leaf: `principle-usefulness` (`../principle-usefulness/SKILL.md` from this file). Load the leaf when you apply it. Cite it the way poteto-mode cites a principle: the name and the choice it changed, and only after you have read the leaf this session.
 
+## Gate
+
+Plan each day's work, PR, or stack as one usable thread, and finish that thread in as few changes as possible. Before opening a PR or ending the day's work, answer: can the user do the thread's outcome on prod now? If not, the next change finishes the thread rather than starting a new layer.
+
 ## Subagents and cloud agents
 
-Follow poteto-mode for how you spawn and kick off agents. Any subagent or cloud agent this mode launches must also be told to work in `/giggle-mode`. Put this file's absolute path in that kickoff so it can load `principle-usefulness`.
+Follow poteto-mode for how you spawn and kick off agents. Every subagent or cloud agent kickoff says to work in `/giggle-mode`. If the receiving agent may not have giggle-stack installed (any cloud agent), paste the full body of `principle-usefulness` into the kickoff so it applies the principle anyway.

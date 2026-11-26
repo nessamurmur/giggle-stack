@@ -4,13 +4,13 @@
     "name": "NJ"
   },
   "metadata": {
-    "description": "Giggle mode on top of pstack. Requires the official pstack plugin."
+    "description": "NJ's agent style on top of pstack. Requires the official pstack plugin."
   },
   "plugins": [
     {
       "name": "giggle-stack",
       "source": "giggle-stack",
-      "description": "Giggle's agent style on top of pstack: /giggle-mode follows poteto-mode, plus Usefulness."
+      "description": "NJ's agent style on top of pstack: /giggle-mode follows poteto-mode, plus Usefulness."
     }
   ]
 }

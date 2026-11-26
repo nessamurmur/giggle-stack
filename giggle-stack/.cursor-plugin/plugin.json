@@ -2,7 +2,7 @@
   "name": "giggle-stack",
   "displayName": "giggle-stack",
   "version": "0.1.0",
-  "description": "Giggle's agent style on top of pstack: /giggle-mode follows poteto-mode, plus Usefulness (thin vertical slices usable on prod, thickened from use).",
+  "description": "NJ's agent style on top of pstack: /giggle-mode follows poteto-mode, plus Usefulness (thin vertical slices usable on prod, thickened from use).",
   "author": {
     "name": "NJ"
   },
