@@ -28,7 +28,7 @@ Import this repo as a Team Marketplace (Teams or Enterprise). On Enterprise, a t
 
 Default Off: each person installs `giggle-stack` from the team marketplace. Default On and Required install it for the group.
 
-Grok Bot uses that same team marketplace.
+The marketplace install is untested. NJ's plan can't import a Team Marketplace. Grok Bot uses a shared-skills copy of giggle-mode and principle-usefulness.
 
 ## Use
 
